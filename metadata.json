@@ -1,0 +1,148 @@
+{
+    "name":"Photography-Template",
+    "thumbnail":"photography.png",
+    "screenshot":"photography.png",
+    "pageTypes": ["home", "about", "gallery", "contact"],
+    "templateType":"standard",
+    "tags": {
+    "en": ["fullscreen", "dark", "photography", "modern", "stylish", "agency", "magazine", "creative", "elegant", "professional", "sophisticated", "media", "sans-serif"],
+    "es": ["pantalla completa", "oscuro", "fotografico", "moderno", "estilo", "agencia", "revista", "creativo", "elegante", "profesional", "sofisticado", "comunicacion", "sans-serif"],
+    "br": ["expandido", "escuro", "fotografia", "moderno", "estilo", "agência", "revista", "criativo", "elegante", "profissional", "sofisticado", "mídia", "sans-serif"]
+    },
+    "colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#ffffff",
+            "color2":"#eeeeee",
+            "color3":"#8da9ba",
+            "color4":"#496e8c",
+            "color5":"#b5b5b5",
+            "color6":"#ffffff",
+            "color7":"#000000"
+        },
+        "Swatch 2": {
+            "color1":"#ffffff",
+            "color2":"#eeeeee",
+            "color3":"#b7af9c",
+            "color4":"#595240",
+            "color5":"#b5b5b5",
+            "color6":"#ffffff",
+            "color7":"#000000"
+        },
+        "Swatch 3": {
+            "color1":"#ffffff",
+            "color2":"#f2f2f2",
+            "color3":"#50BFEE",
+            "color4":"#0d85b7",
+            "color5":"#b5b5b5",
+            "color6":"#ffffff",
+            "color7":"#000000"
+        },
+        "Swatch 4": {
+            "color1":"#ffffff",
+            "color2":"#f2f2f2",
+            "color3":"#546B97",
+            "color4":"#263248",
+            "color5":"#b5b5b5",
+            "color6":"#ffffff",
+            "color7":"#000000"
+        },
+        "Swatch 5": {
+            "color1":"#ffffff",
+            "color2":"#eeeeee",
+            "color3":"#B4B3B3",
+            "color4":"#000000",
+            "color5":"#b5b5b5",
+            "color6":"#ffffff",
+            "color7":"#000000"
+        }
+    },
+    "fontSwatch": {
+       "title": "Montserrat",
+        "font1": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "32px",
+            "font-weight": "inherit",
+            "line-height": "42px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "28px",
+            "font-weight": "inherit",
+            "line-height": "38px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "24px",
+            "font-weight": "inherit",
+            "line-height": "34px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "20px",
+            "font-weight": "inherit",
+            "line-height": "30px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "14px",
+            "font-weight": "inherit",
+            "line-height": "24px",
+            "color": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "14px",
+            "font-weight": "300",
+            "line-height": "28px",
+            "color": "@color-swatch6",
+            "color-hover": "@color-swatch3",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "@color-swatch3"
+        },
+        "font7": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "15px",
+            "font-weight": "inherit",
+            "line-height": "36px",
+            "color": "@color-swatch1",
+            "letter-spacing": "1px",
+            "background-color": "@color-swatch4",
+            "background-color-hover": "darken(@color-swatch3,5%)"
+        },
+        "font8": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "57px",
+            "font-weight": "300",
+            "line-height": "67px",
+            "color": "@color-swatch1",
+            "letter-spacing": "2px"
+        },
+        "font9": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "15px",
+            "font-weight": "inherit",
+            "line-height": "25px",
+            "color": "@color-swatch1",
+            "letter-spacing": "3px"
+        },
+        "font10": {
+            "font-family": "\"Montserrat\", \"Trebuchet MS\", Helvetica, sans-serif",
+            "font-size": "20px",
+            "font-weight": "300",
+            "line-height": "30px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit"
+        }
+    }
+}

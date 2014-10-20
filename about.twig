@@ -1,0 +1,42 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+
+
+   <section class="bk-section">
+    <header class="bk-header">
+        <div class="header-wrapper clearfix">
+            <div class="companyheader">
+                {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
+                {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+            </div>
+            {{widget('extendednavigation', 'navigationheader', {"align":"right"})|raw}}
+        </div>
+    </header>
+	{{widget('feature', 'header-01', {"header": "profile", "strapline":"profile", "buttonText":"Lorem Ipsum","defaultBgImg": asset('images/feature-bg-01.jpg'), 'positionTopPercentage': '0','showBtn': true})|raw}}
+	
+	
+    
+</section>
+
+    <div class="canvas">
+        <div class="main wrapper clearfix">
+		{{widget('image', 'about-me-image', { 'src': asset('images/my-image.jpg'), 'title': '', 'alt': '', 'fileName': 'my-image.jpg', 'fileSize': '58kb', 'imageSize': '350 x 350', 'imageWidth': '350px'})|raw}}
+		
+
+
+		
+           
+        </div>
+    </div>
+
+    <footer class="bk-footer">
+        <div class="wrapper clearfix">
+            {{widget('companyaddress', 'companyaddress', {})|raw}}
+        </div>
+    </footer>
+
+
+
+{% endblock %}

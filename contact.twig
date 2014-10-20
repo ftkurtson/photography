@@ -1,0 +1,43 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+
+
+   <section class="bk-section">
+    <header class="bk-header">
+        <div class="header-wrapper clearfix">
+            <div class="companyheader">
+                {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
+                {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+            </div>
+            {{widget('extendednavigation', 'navigationheader', {"align":"right"})|raw}}
+        </div>
+    </header>
+	{{widget('feature', 'header-01', {"header": "profile", "strapline":"profile", "buttonText":"Lorem Ipsum","defaultBgImg": asset('images/feature-bg-01.jpg'), 'positionTopPercentage': '0','showBtn': true})|raw}}
+	
+	
+    
+</section>
+
+    <div class="canvas">
+        <div class="main wrapper clearfix">
+			{{widget('map', 'map-01', {'height': '300', 'zoom': '15', 'address': 'profile'})|raw}}
+			{{widget('line', 'line-divider', {'thickness': 'inherit', 'padding': 'inherit', 'length':'inherit', 'align': 'center'})|raw}}
+
+			{{widget('contactform', 'contact-form-01', {'text': 'Submit','formTitle': 'Contact Form', 'email': 'profile'})|raw}}
+
+		
+            
+        </div>
+    </div>
+
+    <footer class="bk-footer">
+        <div class="wrapper clearfix">
+            {{widget('companyaddress', 'companyaddress', {})|raw}}
+        </div>
+    </footer>
+
+
+
+{% endblock %}
